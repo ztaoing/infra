@@ -2,7 +2,7 @@ package base
 
 import (
 	log "github.com/sirupsen/logrus"
-	"go1234.cn/newResk/infra"
+	"github.com/ztaoing/infra"
 	"reflect"
 
 	"net"

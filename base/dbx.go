@@ -6,7 +6,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
 	"github.com/tietang/props/kvs"
-	"go1234.cn/newResk/infra"
+	"github.com/ztaoing/infra"
 )
 
 //把数据库的初始化放在setup阶段

@@ -5,7 +5,7 @@ import (
 	"github.com/tietang/go-eureka-client/eureka"
 	"time"
 
-	"go1234.cn/newResk/infra"
+	"github.com/ztaoing/infra"
 )
 
 type EurekaStarter struct {
