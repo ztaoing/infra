@@ -15,6 +15,10 @@ type EurekaStarter struct {
 
 func (e *EurekaStarter) Init(ctx infra.StarterContext) {
 	e.client = eureka.NewClient(ctx.Props())
+	//获得rpc的端口
+	rpcPort := ctx.Props().GetDefault("app.rpc.port", "18082")
+	//放入到实例的metadata中
+	e.client.InstanceInfo.Metadata.Map["rpcPort"] = rpcPort
 	e.client.Start()
 }
 
