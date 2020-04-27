@@ -12,7 +12,7 @@ require (
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/flosch/pongo2 v0.0.0-20190707114632-bbf5a6c351f4 // indirect
 	github.com/gavv/monotime v0.0.0-20190418164738-30dba4353424 // indirect
-	github.com/go-ini/ini v1.54.0 // indirect
+	github.com/go-ini/ini v1.55.0 // indirect
 	github.com/go-playground/locales v0.13.0
 	github.com/go-playground/universal-translator v0.17.0
 	github.com/go-playground/validator/v10 v10.2.0
@@ -32,6 +32,8 @@ require (
 	github.com/kataras/iris v11.1.1+incompatible
 	github.com/klauspost/compress v1.10.3 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
+	github.com/lestrrat/go-file-rotatelogs v0.0.0-20180223000712-d3151e2a480f // indirect
+	github.com/lestrrat/go-strftime v0.0.0-20180220042222-ba3bf9c1d042 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2 // indirect
@@ -39,6 +41,7 @@ require (
 	github.com/onsi/ginkgo v1.12.0 // indirect
 	github.com/onsi/gomega v1.9.0 // indirect
 	github.com/prometheus/common v0.9.1 // indirect
+	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5 // indirect
 	github.com/ryanuber/columnize v2.1.0+incompatible // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
@@ -57,7 +60,7 @@ require (
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	golang.org/x/crypto v0.0.0-20200311171314-f7b00557c8c4 // indirect
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a // indirect
-	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
+	golang.org/x/sys v0.0.0-20200420163511-1957bb5e6d1f // indirect
 	gopkg.in/ini.v1 v1.54.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 
